@@ -46,7 +46,7 @@ function AboutMe() {
                         <p className="fs-3 font-hagrid">
                             I'm <span className="text-cyan">Reetam</span>, an aspiring <span className="text-cyan">Data Scientist</span>
                         </p>
-                        <p className="font-oxanium fs-5">
+                        <p className="font-oxanium fs-5 text-secondary">
                             {/* Hey, I’m a Computer Science student with a passion for Machine Learning, Data Science, and Software Development. I love turning ideas into smart, efficient solutions—whether it’s a movie recommendation system, a WhatsApp chat analyzer, or a car price predictor.<br />
                         I had the incredible opportunity to intern at IIT Guwahati, where I optimized ML models for IoT devices. My goal? To push the boundaries of ML engineering and build AI-driven systems that make an impact.<br />
                         Always learning, always experimenting—ready to take on the next big challenge! <br /> */}
