@@ -30,8 +30,8 @@ function Hero() {
 
     return (
         <div 
-            style={{ backgroundImage: "url('/images/background_1.png')", backgroundSize: 'cover', height: "100vh"}}
-            className="100-vw d-flex justify-content-center align-items-center"
+            style={{ backgroundImage: "url('/images/background_1.png')", backgroundSize: 'cover', height: "100vh", width: "100%"}}
+            className="d-flex justify-content-center align-items-center"
         >
             <div ref={animateRef} className="ease-in-from-left container justify-content-center">
                 <div className="row justify-content-center justify-content-md-start">

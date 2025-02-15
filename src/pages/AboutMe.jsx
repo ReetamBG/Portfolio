@@ -30,8 +30,8 @@ function AboutMe() {
 
     return (
         <div
-            style={{ backgroundImage: "url('/images/background_4.png')", backgroundSize: 'cover', height: "100%" }}
-            className="100-vw d-flex justify-content-center pb-5"
+            style={{ backgroundImage: "url('/images/background_4.png')", backgroundSize: 'cover', height: "100%", width: "100%" }}
+            className="d-flex justify-content-center pb-5"
         >
             <div ref={animateRef} className="ease-in-from-right container">
                 <div className="row justify-content-center">
