@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #020912;
+}
+
+.text-cyan {
+    color: #98e8cd;
+}
+
+@font-face {
+    font-family: 'Hagrid';
+    src: url('/fonts/Hagrid/Hagrid-Regular-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('public/fonts/Neue Machina/NeueMachina-Regular.otf') format('opentype');
+}
+
+.font-hagrid {
+    font-family: 'Hagrid';
+}
+
+.font-neue-machina {
+    font-family: 'Neue Machina';
+}
+
+.ease-in-from-left {
+    opacity: 0;
+    transform: translateX(-50px); /* Start slightly off-screen */
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.ease-in-from-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.ease-in-from-right {
+    opacity: 0;
+    transform: translateX(+50px); /* Start slightly off-screen */
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.ease-in-from-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
