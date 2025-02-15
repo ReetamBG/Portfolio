@@ -31,8 +31,8 @@ function Projects() {
 
     return (
         <div
-            style={{ backgroundImage: "url('/images/background_2.png')", backgroundSize: 'cover', height: "100vh", paddingTop: "10%" }}
-            className="d-flex justify-content-center"
+            style={{ backgroundImage: "url('/images/background_2.png')", backgroundSize: 'cover', height: "100%", paddingTop: "10%" }}
+            className="100-vw d-flex justify-content-center"
         >
             <div ref={animateRef} className="ease-in-from-left container">
                 <div className="row mb-5 pb-5 justify-content-center justify-content-md-start">
