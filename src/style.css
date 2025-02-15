@@ -23,11 +23,11 @@ html{
 }
 
 .font-hagrid {
-    font-family: 'Hagrid', monospace;
+    font-family: 'Hagrid';
 }
 
 .font-neue-machina {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', monospace;
 }
 
 .ease-in-from-left {
