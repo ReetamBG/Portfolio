@@ -40,7 +40,7 @@ function Hero() {
                             <span>Hi, I'm </span>
                             <span className="text-cyan">Reetam Borgohain,</span>
                         </div>
-                        <div className="display-6 text-white font-neue-machina">
+                        <div className="display-6 text-white font-oxanium">
                             an aspiring Data Scientist
                         </div>
                     </div>
