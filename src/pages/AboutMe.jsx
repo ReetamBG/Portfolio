@@ -35,11 +35,22 @@ function AboutMe() {
         >
             <div ref={animateRef} className="ease-in-from-right container">
                 <div className="row justify-content-center">
-                    <div className="col-10 col-md-6 order-1 order-md-2 mb-5 font-main display-3 text-md-end text-white font-hagrid">
-                        <p>About <span className="text-cyan">Me</span></p>
-                        <button type="button" class="btn btn-danger mx-1 mt-3">My Resume</button>
-                        <button type="button" class="btn btn-light mx-1 mt-3">Github</button>
-                        <button type="button" class="btn btn-dark mx-1 mt-3">Linkedin</button>
+                    <div className="col-10 col-md-6 order-1 order-md-2 mb-5 font-main text-md-end text-white font-hagrid">
+                        <div className="display-3">
+                            <p>About <span className="text-cyan">Me</span></p>
+                            <a href="https://drive.google.com/file/d/14nfw8ii4sMMpztdkYVp_m78IuyEmZvDq/view?usp=drive_link"><button type="button" class="btn btn-danger mx-1 mt-3">My Resume</button></a>
+                            <a href="https://github.com/ReetamBG"><button type="button" class="btn btn-light mx-1 mt-3">Github</button></a>
+                            <a href="https://www.linkedin.com/in/reetam-borgohain-058063260/"><button type="button" class="btn btn-dark mx-1 mt-3">Linkedin</button></a>
+                        </div>
+                        {/* <div className="fs-4 mt-5">
+                            <p>Skills</p>
+                            <button type="button" class="btn btn-dark btn-sm mx-1 my-1">Machine Learning</button>
+                            <button type="button" class="btn btn-dark btn-sm mx-1 my-1">Deep Learning</button>
+                            <button type="button" class="btn btn-dark btn-sm mx-1 my-1">Github</button><br/>
+                            <button type="button" class="btn btn-dark btn-sm mx-1 my-1">Linux</button>
+                            <button type="button" class="btn btn-dark btn-sm mx-1 my-1">NLP</button>
+                            <button type="button" class="btn btn-dark btn-sm mx-1 my-1">Github</button>
+                        </div> */}
                     </div>
 
                     <div className="col-10 col-md-6 order-2 order-md-1 text-white">
