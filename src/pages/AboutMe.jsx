@@ -41,7 +41,7 @@ function AboutMe() {
                         <button type="button" class="btn btn-light mx-1 mt-3">Github</button>
                         <button type="button" class="btn btn-dark mx-1 mt-3">Linkedin</button>
                     </div>
-                    
+
                     <div className="col-10 col-md-6 order-2 order-md-1 text-white">
                         <p className="fs-3 font-hagrid">
                             I'm <span className="text-cyan">Reetam</span>, an aspiring <span className="text-cyan">Data Scientist</span>
@@ -50,10 +50,10 @@ function AboutMe() {
                             {/* Hey, I’m a Computer Science student with a passion for Machine Learning, Data Science, and Software Development. I love turning ideas into smart, efficient solutions—whether it’s a movie recommendation system, a WhatsApp chat analyzer, or a car price predictor.<br />
                         I had the incredible opportunity to intern at IIT Guwahati, where I optimized ML models for IoT devices. My goal? To push the boundaries of ML engineering and build AI-driven systems that make an impact.<br />
                         Always learning, always experimenting—ready to take on the next big challenge! <br /> */}
-                            Hey, I’m a Computer Science student with a passion for Machine Learning, and Software Development.<br /><br />
-                            I've build multiple AI-powered solutions, from recommendation systems to data analytics tools.<br />
-                            Worked on multiple ML projects and interned at IIT Guwahati, optimizing models for IoT.<br /><br />
-                            Always learning, always building—excited to create impactful technology.<br />
+                            Hey, I’m a Computer Science student passionate about Machine Learning and Software Development.<br /><br />
+                            I’ve built multiple AI-powered solutions, from hybrid recommendation systems to advanced data analytics tools.<br />
+                            I also worked on various ML projects and interned at IIT Guwahati, where I optimized models for IoT applications.<br /><br />
+                            Constantly learning, continuously building—driven to create impactful technology.
                         </p>
                     </div>
                 </div>
