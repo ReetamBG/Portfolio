@@ -13,6 +13,10 @@
     color: #98e8cd;
 }
 
+.btn-sm {
+    height: 30px;
+}
+
 @font-face {
     font-family: 'Hagrid';
     src: url('/fonts/Hagrid/Hagrid-Regular-trial.ttf') format('truetype');

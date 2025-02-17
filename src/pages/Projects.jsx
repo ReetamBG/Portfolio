@@ -35,27 +35,30 @@ function Projects() {
             style={{ backgroundImage: "url('/images/background_2_black.png')", backgroundSize: '50%', backgroundRepeat: "no-repeat", height: "100%", width: "100%", paddingTop: "10%" }}
             className="pb-5 my-dark-bg"
         >
-            <div ref={animateRef} className="ease-in-from-left container">
-                <div className="row mb-4 justify-content-center justify-content-md-start">
-                    <div className="col-10 col-md-12 font-hagrid mb-5">
-                        <p className="display-3 text-white">Checkout <span className="text-cyan">My Work</span></p>
-                        <p className="text-secondary fs-4 ps-3">Here goes some of my projects</p>
+            <div ref={animateRef} className="ease-in-from-left">
+                <div className="container">
+                    <div className="row mb-4 justify-content-center justify-content-md-start">
+                        <div className="col-10 col-md-12 font-hagrid mb-5">
+                            <p className="display-3 text-white">Checkout <span className="text-cyan">My Work</span></p>
+                            <p className="text-secondary fs-4 ps-3">Here goes some of my projects</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="container-fluid justify-content-center gap-4 px-4 px-md-0">
-                <div className="col-md-12 col-10 d-flex gap-4 justify-content-center">
-                    {projects.map((project, index) => {
-                        return (
-                            <ProjectCard
-                                key={index}
-                                project_title={project.title}
-                                image_url={project.image}
-                                frameworks={project.frameworks}
-                                project_description={project.description}
-                            />
-                        )
-                    })}
+                <div className="container-fluid ">
+                    <div className="row d-flex justify-content-center gap-4">
+                        {projects.map((project, index) => {
+                            return (
+                                <div key={index} className="col-10 col-md-5 col-lg-3">
+                                    <ProjectCard
+                                        project_title={project.title}
+                                        image_url={project.image}
+                                        frameworks={project.frameworks}
+                                        project_description={project.description}
+                                    />
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
         </div>
