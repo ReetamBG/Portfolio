@@ -5,7 +5,7 @@ function ProjectCard(props) {
             style={{
                 maxWidth: "25em",
                 height: "32rem",
-                background: "url(images/background_4.png)",
+                background: "url(images/background_4_black.png)",
                 display: "flex",
                 flexDirection: "column",
             }}

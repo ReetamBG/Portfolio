@@ -32,7 +32,7 @@ function AboutMe() {
 
     return (
         <div
-            style={{ backgroundImage: "url('/images/background_4.png')", backgroundSize: 'cover', height: "100%", width: "100%" }}
+            style={{ backgroundImage: "url('/images/background_4_black.png')", backgroundSize: 'cover', height: "100%", width: "100%" }}
             className="d-flex justify-content-center pb-5"
         >
             <div ref={animateRef} className="ease-in-from-right container">

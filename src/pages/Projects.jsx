@@ -32,7 +32,7 @@ function Projects() {
 
     return (
         <div 
-            style={{ backgroundImage: "url('/images/background_2.png')", backgroundSize: '50%',  backgroundRepeat: "no-repeat", height: "100%", width: "100%", paddingTop: "10%" }}
+            style={{ backgroundImage: "url('/images/background_2_black.png')", backgroundSize: '50%',  backgroundRepeat: "no-repeat", height: "100%", width: "100%", paddingTop: "10%" }}
             className="d-flex justify-content-center pb-5 my-dark-bg"
         >
             <div ref={animateRef} className="ease-in-from-left container">
