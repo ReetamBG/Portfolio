@@ -32,6 +32,7 @@ function Projects() {
 
     return (
         <div
+            id="projects"
             style={{ backgroundImage: "url('/images/background_2_black.png')", backgroundSize: '50%', backgroundRepeat: "no-repeat", height: "100%", width: "100%", paddingTop: "10%" }}
             className="pb-5 my-dark-bg"
         >

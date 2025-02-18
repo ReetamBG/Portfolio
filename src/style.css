@@ -5,7 +5,11 @@
     font-family: sans-serif;
 }
 
-.my-dark-bg{
+html {
+    scroll-behavior: smooth;
+}
+
+.my-dark-bg {
     background-color: black;
 }
 
@@ -37,7 +41,8 @@
 
 .ease-in-from-left {
     opacity: 0;
-    transform: translateX(-50px); /* Start slightly off-screen */
+    transform: translateX(-50px);
+    /* Start slightly off-screen */
     transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
@@ -48,7 +53,8 @@
 
 .ease-in-from-right {
     opacity: 0;
-    transform: translateX(+50px); /* Start slightly off-screen */
+    transform: translateX(+50px);
+    /* Start slightly off-screen */
     transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
@@ -57,3 +63,18 @@
     transform: translateX(0);
 }
 
+.nav-separator {
+    position: relative;
+    padding-right: 15px;
+}
+
+.nav-separator::after {
+    content: "|";
+    position: absolute;
+    right: -10px;
+    color: rgba(255, 255, 255, 0.247);
+}
+
+.nav-item:last-child .nav-separator::after {
+    content: "";
+}

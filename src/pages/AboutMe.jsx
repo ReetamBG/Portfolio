@@ -31,7 +31,8 @@ function AboutMe() {
     }, []);
 
     return (
-        <div
+        <div 
+            id="about_me"
             style={{ backgroundImage: "url('/images/background_4_black.png')", backgroundSize: 'cover', height: "100%", width: "100%" }}
             className="d-flex justify-content-center pb-5"
         >

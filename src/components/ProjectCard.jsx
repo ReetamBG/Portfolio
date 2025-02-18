@@ -41,7 +41,7 @@ function ProjectCard(props) {
                     {/* GitHub & Website buttons */}
                     <div>
                         <button className="btn btn-sm my-dark-bg px-3 my-1 rounded-2 border-secondary text-light"><i className="fa-brands fa-github me-2"></i>Github</button>
-                        <button className="btn btn-sm btn-light px-3 my-1 rounded-2">Website</button>
+                        <button className="btn btn-sm btn-light px-3 my-1 rounded-2 ms-2">Website</button>
                     </div>
                 </div>
             </div>
