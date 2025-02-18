@@ -43,19 +43,19 @@ function AboutMe() {
                             <div className="display-3">
                                 <p>About <span className="text-cyan">Me</span></p>
                                 <a target="_blank" href="https://drive.google.com/file/d/14nfw8ii4sMMpztdkYVp_m78IuyEmZvDq/view?usp=drive_link">
-                                    <button type="button" class="btn btn-danger mx-1 mt-3">
+                                    <button type="button" className="btn btn-danger mx-1 mt-3">
                                         <i className="fa-solid fa-globe me-2"></i>
                                         My Resume
                                     </button>
                                 </a>
                                 <a target="_blank" href="https://github.com/ReetamBG">
-                                    <button type="button" class="btn btn-light mx-1 mt-3">
+                                    <button type="button" className="btn btn-light mx-1 mt-3">
                                         <i className="fa-brands fa-github me-2"></i>
                                         Github
                                     </button>
                                 </a>
                                 <a target="_blank" href="https://www.linkedin.com/in/reetam-borgohain-058063260/">
-                                    <button type="button" class="btn btn-dark mx-1 mt-3">
+                                    <button type="button" className="btn btn-dark mx-1 mt-3">
                                         <img src="/images/linkedin_icon.png" alt="LinkedIn" style={{ width: "20px", marginRight: "8px", position: "relative", top: "-2px" }} />
                                         Linkedin
                                     </button>
@@ -67,7 +67,7 @@ function AboutMe() {
                                 <p>Skills</p>
                                 {skills.map((skill, index) => {
                                     return (
-                                        <button key={index} type="button" class="btn btn-dark btn-sm mx-1 my-1">{skill}</button>
+                                        <button key={index} type="button" className="btn btn-dark btn-sm mx-1 my-1">{skill}</button>
                                     )
                                 })}
                             </div>

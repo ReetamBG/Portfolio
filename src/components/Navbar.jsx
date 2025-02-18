@@ -32,7 +32,7 @@ function Navbar() {
                         <li className="nav-item"><a className="nav-link text-secondary" href="#hero">Home</a></li>
                         <li className="nav-item"><a className="nav-link text-secondary" href="#about-me">About Me</a></li>
                         <li className="nav-item"><a className="nav-link text-secondary" href="#projects">Projects</a></li>
-                        <li className="nav-item"><a className="nav-link text-secondary" href="#">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link text-secondary" href="#contact">Contact</a></li>
                         <li className="nav-item">
                             {/* <a className="nav-link text-white" href="#">
                               <svg className="bi" width="24" height="24" fill="white"><use xlinkHref="#cart"></use></svg>

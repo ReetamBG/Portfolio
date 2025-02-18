@@ -41,7 +41,7 @@ function Projects() {
                     <div className="row mb-4 justify-content-center justify-content-md-start">
                         <div className="col-10 col-md-12 font-hagrid mb-5">
                             <p className="display-3 text-white">Checkout <span className="text-cyan">My Work</span></p>
-                            <p className="text-secondary fs-4 ps-3">Here goes some of my projects</p>
+                            <p className="text-secondary fs-4 ps-3">-- Here goes some of my projects --</p>
                         </div>
                     </div>
                 </div>
