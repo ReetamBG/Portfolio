@@ -44,10 +44,9 @@ function ProjectCard(props) {
                         </a>
                         {props.is_live && (
                             <a href={props.website_link}>
-                            <button className="btn btn-sm btn-light px-3 my-1 rounded-2 ms-2">Website</button>
-                        </a>
+                                <button className="btn btn-sm btn-light px-3 my-1 rounded-2 ms-2">Website</button>
+                            </a>
                         )}
-                        
                     </div>
                 </div>
             </div>
