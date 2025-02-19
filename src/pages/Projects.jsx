@@ -55,6 +55,9 @@ function Projects() {
                                         image_url={project.image}
                                         frameworks={project.frameworks}
                                         project_description={project.description}
+                                        github_link={project.github_link}
+                                        website_link={project.website_link}
+                                        is_live={project.is_live}
                                     />
                                 </div>
                             )

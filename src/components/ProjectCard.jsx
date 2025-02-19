@@ -10,7 +10,6 @@ function ProjectCard(props) {
                 flexDirection: "column",
             }}
         >
-            <div className="position-absolute top-0 start-0 w-100 h-100 rounded-4"></div>
 
             <img
                 src={props.image_url}
@@ -40,8 +39,15 @@ function ProjectCard(props) {
 
                     {/* GitHub & Website buttons */}
                     <div>
-                        <button className="btn btn-sm my-dark-bg px-3 my-1 rounded-2 border-secondary text-light"><i className="fa-brands fa-github me-2"></i>Github</button>
-                        <button className="btn btn-sm btn-light px-3 my-1 rounded-2 ms-2">Website</button>
+                        <a href={props.github_link} target="_blank">
+                            <button className="btn btn-sm my-dark-bg px-3 my-1 rounded-2 border-secondary text-light"><i className="fa-brands fa-github me-2"></i>Github</button>
+                        </a>
+                        {props.is_live && (
+                            <a href={props.website_link}>
+                            <button className="btn btn-sm btn-light px-3 my-1 rounded-2 ms-2">Website</button>
+                        </a>
+                        )}
+                        
                     </div>
                 </div>
             </div>
